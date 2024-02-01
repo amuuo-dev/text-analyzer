@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+    <div class="inputBox">
+        <h1>Text Analyzer</h1>
+        <textarea name="fill" id="textInput" rows="3" placeholder="Type your text here..."></textarea>
+        <button id="analyzerBtn" type="submit">Analyze</button>
+    </div>
+        <div class="output-container" id="output">
+            <p>Word Count: <span id="wordCount">0</span></p>
+            <p>Character Count: <span id="charCount">0</span></p>
+            <p>Average Word Length: <span id="avgCount">0</span></p>
+        </div>
+    </div>   
+</body>
+<script src="index.js"></script>
+</html>
